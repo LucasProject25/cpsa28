@@ -71,4 +71,4 @@ Le site est un showroom de vente de voiture haut de gammes d'occasion situé à 
 - Avantages débloqués (Seulement affiché dans l'espace client)
 - Suivi des privilèges
 
-**Site initial**[https://www.cpsa28.com]
+**Site initial :** [cpsa28](https://www.cpsa28.com)
