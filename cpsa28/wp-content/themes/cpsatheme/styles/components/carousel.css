@@ -1,0 +1,185 @@
+.carousel {
+    background-color: var(--gray-800);
+    margin: 50px 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.carousel__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+    gap: 100px;
+}
+
+.carousel__item--detail__vehicule {
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+.carousel__item--detail__vehicule.active {
+    display: block;
+}
+
+.carousel__nav-item {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.carousel__nav-item:hover {
+    border: 2px solid var(--primary);
+    
+}
+
+.carousel__nav-item.active {
+    opacity: 1;
+    border: 2px solid var(--primary);
+    
+}
+
+.carousel__image {
+    width: 435px;
+    height: 305px;
+}
+
+.carousel__image--detail__vehicule {
+    /*width: 980px;
+    height: auto;*/
+}
+
+.carousel__nav-image {
+    width: auto;
+    height: auto;
+}
+
+.carousel__titre {
+    font-family: var(--font-sans-serif-medium);
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.carousel__prix {
+    font-family: var(--font-sans-serif-bold);
+    color: var(--primary);
+}
+
+.carousel__logo {
+    width: auto;
+    height: 100px;
+}
+
+.carousel__myBtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Les boutons de la bibliothèque "slick.css" */
+.slick-prev::before, .slick-next::before {
+    font-size: 40px;
+}
+
+
+.slide-btn {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+    .carousel__item {
+        flex-direction: column;
+    }
+
+    .carousel__image {
+        width: 200px;
+        height: auto;
+    }
+
+    .carousel__titre {
+        font-size: var(--fs-paragraph-bis);
+    }
+
+    .carousel__prix {
+        font-size: var(--fs-sub-heading);
+    }
+
+    .carousel__logo {
+        width: 63px;
+    }
+
+    .slick-prev {
+        left: 0;
+        z-index: 1000;
+    }
+
+    .slick-next {
+        right: 20px;
+    }
+
+    .carousel__nav-image {
+        width: 100px;
+        height: auto;
+    }
+
+    .carousel__image--detail__vehicule {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1179px) {
+
+    .carousel__image {
+        width: 380px;
+        height: auto;
+    }
+
+    .carousel__prix {
+        font-size: var(--fs-sub-heading);
+    }
+
+    .carousel__logo {
+        width: 85px;
+    }
+
+    .slick-prev::before, .slick-next::before {
+        font-size: 60px;
+    }
+    
+    .slick-prev {
+        left: 0;
+        z-index: 1000;
+    }
+
+    .slick-next {
+        right: 45px;
+    }
+
+    .carousel__nav-image {
+        width: 100px;
+        height: auto;
+    }
+
+    .carousel__image--detail__vehicule {
+        width: 400px;
+        height: auto;
+    }
+}

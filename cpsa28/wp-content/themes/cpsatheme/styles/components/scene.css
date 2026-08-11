@@ -1,0 +1,108 @@
+/* Conteneur global */
+.scene {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 50px auto;
+}
+
+/* Base hexagone */
+.hexagon {
+  /* clip-path: polygon(50% 10%, 100% 30%, 100% 75%, 50% 90%, 0 75%, 0 30%);*/
+  position: absolute;
+}
+
+/* Hexagone principal */
+.hexagon.main {
+  z-index: 10;
+  width: 944px;
+  height: 746px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hexagon.main.recherche {
+  width: 978px;
+  height: 880px;
+}
+
+/* Hexagones décoratifs */
+.hexagon.deco {
+  z-index: 1;
+  width: 198px;
+  height: 192px;
+  /* fill: #c62828;*/
+  /* background: #c62828;*/
+  position: absolute;
+  opacity: 0.9;
+}
+
+/* Positions */
+.top-left {
+  top: -60px;
+  left: -130px;
+}
+
+.top-right {
+  top: -60px;
+  right: -130px;
+}
+
+.bottom-left {
+  bottom: -60px;
+  left: -130px;
+}
+
+.bottom-right {
+  bottom: -60px;
+  right: -130px;
+}
+
+.top-left.recherche {
+  top: -110px;
+  left: -200px;
+}
+.top-right.recherche {
+  top: -100px;
+  right: -230px;
+}
+
+.bottom-left.recherche {
+  bottom: -35px;
+  left: -250px;
+}
+.bottom-right.recherche {
+  right: -260px;
+  bottom: -50px;
+}
+
+
+@media (min-width: 0) and (max-width: 768px) {
+
+  .scene {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+
+  .hexagon.main {
+    height: auto;
+  }
+
+  .hexagon.deco {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1179px) {
+
+  .hexagon.main {
+    height: auto;
+  }
+
+  .hexagon.deco {
+    display: none;
+  }
+
+}

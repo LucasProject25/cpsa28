@@ -1,0 +1,129 @@
+.catalogue {
+    width: 100%;
+}
+
+.catalogue__itemsCar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.catalogue__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 50px 0;
+}
+
+.catalogue__item--reverse {
+    flex-direction: row-reverse;
+}
+
+img.catalogue__img {
+    width: 595px;
+    height: 385px;
+    object-fit: contain;
+    clip-path: polygon(50% 10%, 100% 30%, 100% 75%, 50% 90%, 0 75%, 0 30%);
+    display: block;
+}
+
+.catalogue__details {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.catalogue__logo {
+    width: auto;
+    height: 98px;
+}
+
+.catalogue__title {
+    font-family: var(--font-sans-serif-medium);
+    text-transform: uppercase;
+}
+
+.catalogue__informations {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.catalogue__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalogue__firstInfo {
+    font-weight: bold;
+}
+
+.catalogue__price {
+    font-family: var(--font-sans-serif-bold);
+    font-size: var(--fs-heading);
+    color: var(--primary);
+}
+
+.catalogue__link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.catalogue__link:hover {
+    color: var(--primary);
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+    .catalogue__item {
+        flex-direction: column;
+        gap: 20px;
+}
+
+    img.catalogue__img {
+        width: 395px;
+        height: auto;
+        object-fit: contain;
+        display: block;
+    }
+
+    .catalogue__logo {
+        width: 75px;
+        height: auto;
+    }
+
+    .catalogue__title {
+        font-size: var(--fs-paragraph-bis);
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1179px) {
+    .catalogue__item {
+        gap: 20px;
+    }
+    
+    img.catalogue__img {
+        width: 495px;
+        height: auto;
+        object-fit: contain;
+        display: block;
+    }
+
+    .catalogue__logo {
+        width: 85px;
+        height: auto;
+    }
+
+    .catalogue__title {
+        font-size: var(--fs-paragraph-bis);
+    }
+}

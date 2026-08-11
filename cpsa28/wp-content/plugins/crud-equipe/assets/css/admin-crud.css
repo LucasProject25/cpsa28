@@ -1,0 +1,86 @@
+td {
+    vertical-align: middle !important;
+}
+
+.button-edit:hover {
+    background-color: #0d6efd !important;
+    color: white !important;
+    transition: ease 0.2s;
+}
+
+
+.button-link-delete {
+    border-color: #d63638 !important;
+}
+
+.button-link-delete:hover {
+    background-color: #d63638 !important;
+    color: white !important;
+    transition: ease 0.2s;
+}
+
+.bi-trash,
+.bi-pen {
+    font-size: 15px;
+}
+
+.admin-form,
+.admin-form
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.admin-form__inputs-container {
+    width: max-content;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.admin-form__name
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.admin-form__role {
+    display: flex;
+    justify-content: center;
+}
+
+
+.admin-form__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-form__input {
+    width: 295px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.form__button {
+    width: 375px;
+    height: 50px;
+    
+}
+
+.form__button--cancel {
+    text-align: center;
+    padding: 10px !important;
+}

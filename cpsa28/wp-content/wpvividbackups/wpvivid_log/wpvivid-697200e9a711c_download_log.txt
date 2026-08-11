@@ -1,0 +1,21 @@
+[2026-01-22 11:50:17][notice]Prepare download backup.
+[2026-01-22 11:50:17][notice]server info fcgi:Off max execution time: 300 wp version:6.9 php version:8.3.1 db version:5.7.24 php ini:safe_mode: memory_limit:128M memory_get_usage:57,07 Mo memory_get_peak_usage:57,86 Mo extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2026-01-22 11:50:17][notice]Google Drive get client.
+[2026-01-22 11:50:17][notice]Create local file.
+[2026-01-22 11:50:18][notice]Get download url.
+[2026-01-22 11:50:18][notice]Downloading file , Size: 198954278
+[2026-01-22 11:50:19][notice]Total Size: 198954278, Downloaded Size: 2097152
+[2026-01-22 11:50:23][notice]Total Size: 198954278, Downloaded Size: 16777216
+[2026-01-22 11:50:27][notice]Total Size: 198954278, Downloaded Size: 31457280
+[2026-01-22 11:50:31][notice]Total Size: 198954278, Downloaded Size: 44040192
+[2026-01-22 11:50:35][notice]Total Size: 198954278, Downloaded Size: 58720256
+[2026-01-22 11:50:39][notice]Total Size: 198954278, Downloaded Size: 71303168
+[2026-01-22 11:50:43][notice]Total Size: 198954278, Downloaded Size: 85983232
+[2026-01-22 11:50:47][notice]Total Size: 198954278, Downloaded Size: 100663296
+[2026-01-22 11:50:51][notice]Total Size: 198954278, Downloaded Size: 117440512
+[2026-01-22 11:50:55][notice]Total Size: 198954278, Downloaded Size: 130023424
+[2026-01-22 11:50:59][notice]Total Size: 198954278, Downloaded Size: 144703488
+[2026-01-22 11:51:03][notice]Total Size: 198954278, Downloaded Size: 157286400
+[2026-01-22 11:51:07][notice]Total Size: 198954278, Downloaded Size: 171966464
+[2026-01-22 11:51:11][notice]Total Size: 198954278, Downloaded Size: 186646528
+[2026-01-22 11:51:14][notice]Download completed.

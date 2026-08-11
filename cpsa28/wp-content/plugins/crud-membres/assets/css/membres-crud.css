@@ -1,0 +1,79 @@
+td {
+    vertical-align: middle !important;
+}
+
+.button-edit:hover {
+    background-color: #0d6efd !important;
+    color: white !important;
+    transition: ease 0.2s;
+}
+
+
+.button-link-delete {
+    border-color: #d63638 !important;
+}
+
+.button-link-delete:hover {
+    background-color: #d63638 !important;
+    color: white !important;
+    transition: ease 0.2s;
+}
+
+.form-membre,
+.form-statut
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 2rem;
+}
+
+.form-privilege {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 2rem;
+}
+
+.form-membre__inputs-container {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+}
+
+.form-membre__inputs-left,
+.form-membre__inputs-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.form-membre__inputs,
+.form-statut__inputs,
+.form-privilege__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-membre__input {
+    width: 295px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-membre__label {
+    font-weight: bold;
+}
+
+.bi-trash,
+.bi-pen {
+    font-size: 15px;
+}

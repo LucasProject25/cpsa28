@@ -1,0 +1,158 @@
+.form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.form__columns {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.form__textarea {
+    width: 800px;
+}
+
+.green {
+    background-color: #29c20a !important;
+}  
+
+.orange {
+    background-color: orange !important;
+}
+
+.button.button-small {
+    padding: 8px 8px !important;
+    font-size: 0.875rem !important;
+}
+
+.container__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons__bot,
+.buttons__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+/* Style pour la page de consultation */
+
+
+h1 {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container__bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.container__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.myCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #8b8a8a;  
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: -14px 14px 5px rgba(0, 0, 0, 0.1);
+}
+
+.myCard__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.myCard--docs {
+    width: 50rem;
+}
+
+.myCard__docs {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.myCard__doc {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.myCard__valid {
+    display: flex;
+    justify-content: center;
+}
+
+.myCard--propositions {
+    width: 50rem;
+}
+
+.myCard--conseiller {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.myCard__details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myCard__lines {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.myCard__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.myCard__infoSupp {
+    margin-right: 15rem;
+}
+
+.myCard__title {
+    font-weight: bold;
+}

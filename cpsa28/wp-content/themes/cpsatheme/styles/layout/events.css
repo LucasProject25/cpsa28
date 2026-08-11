@@ -1,0 +1,72 @@
+.events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.events__portrait {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+.events__paysage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.events__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.events__name--paysage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.events__descriptions {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.events__descriptions--paysage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 970px;
+}
+
+.events__title,
+.events__desc {
+    font-size: var(--fs-sub-heading);
+}
+
+.events__img {
+    width: 580px;
+    height: 820px;
+    object-fit: cover;
+
+}
+
+.events__img--paysage {
+    width: 780px;
+    height: 520px;
+    object-fit: cover;
+}
+

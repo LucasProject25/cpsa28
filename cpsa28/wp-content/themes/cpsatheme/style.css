@@ -1,0 +1,34 @@
+/* 1. Les librairies externes */
+@import url("styles/vendors/normalize.css");
+
+/* 2. Les utilitaires */
+@import url("styles/utils/variables.css");
+
+/* 3. Les règles générales */
+@import url("styles/base/main.css");
+
+/* 4. Les éléments de mise en page généraux */
+@import url("styles/layout/header.css");
+@import url("styles/layout/footer.css");
+@import url("styles/layout/section.css");
+@import url("styles/layout/infos-generales.css");
+@import url("styles/layout/services-list.css");
+@import url("styles/layout/events.css");
+
+/* 5. Les librairies tierces */
+@import url("styles/lib/slick.css");
+@import url("styles/lib/slick-theme.css");
+
+/* 6. Les composants */
+@import url("styles/components/menu.css");
+@import url("styles/components/select.css");
+@import url("styles/components/myBtn.css");
+@import url("styles/components/filtre.css");
+@import url("styles/components/carousel.css");
+@import url("styles/components/catalogue.css");
+@import url("styles/components/option-buttons.css");
+@import url("styles/components/modal.css");
+@import url("styles/components/formulaire.css");
+@import url("styles/components/scene.css");
+@import url("styles/components/dashboard__buttons.css");
+@import url("styles/components/profile-card.css");

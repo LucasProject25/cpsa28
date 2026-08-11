@@ -1,0 +1,112 @@
+:root {
+    /* Color styles */
+    --primary: #DB202B;
+    --secondary: #C52F38;
+    --gray-800: #343434;
+    --black: #1C1C1C;
+    --white: white;
+
+    /* Text-size styles */
+    --fs-heading-bis: 2rem;
+    --fs-heading: 1.875rem;
+    --fs-sub-heading: 1.25rem;
+    --fs-paragraph: 0.75rem;
+    --fs-paragraph-bis: 0.875rem;
+
+    /* Font-family styles */
+    --font-sans-serif: 'Panchang-Regular';
+    --font-sans-serif-medium: 'Panchang-Medium';
+    --font-sans-serif-semiBold: 'Panchang-SemiBold';
+    --font-sans-serif-bold: 'Panchang-Bold';
+    --font-racing-sans-one-sans-serif: 'RacingSansOne-Regular';
+}
+
+@font-face {
+  font-family: 'Panchang-Extralight';
+  src: url('../../assets/fonts/Panchang-Extralight.woff2') format('woff2'),
+       url('../../assets/fonts/Panchang-Extralight.woff') format('woff'),
+       url('../../assets/fonts/Panchang-Extralight.ttf') format('truetype');
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panchang-Light';
+  src: url('../../assets/fonts/Panchang-Light.woff2') format('woff2'),
+       url('../../assets/fonts/Panchang-Light.woff') format('woff'),
+       url('../../assets/fonts/Panchang-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panchang-Regular';
+  src: url('../../assets/fonts/Panchang-Regular.woff2') format('woff2'),
+       url('../../assets/fonts/Panchang-Regular.woff') format('woff'),
+       url('../../assets/fonts/Panchang-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panchang-Medium';
+  src: url('../../assets/fonts/Panchang-Medium.woff2') format('woff2'),
+       url('../../assets/fonts/Panchang-Medium.woff') format('woff'),
+       url('../../assets/fonts/Panchang-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panchang-Semibold';
+  src: url('../../assets/fonts/Panchang-Semibold.woff2') format('woff2'),
+       url('../../assets/fonts/Panchang-Semibold.woff') format('woff'),
+       url('../../assets/fonts/Panchang-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panchang-Bold';
+  src: url('../../assets/fonts/Panchang-Bold.woff2') format('woff2'),
+       url('../../assets/fonts/Panchang-Bold.woff') format('woff'),
+       url('../../assets/fonts/Panchang-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panchang-Extrabold';
+  src: url('../../assets/fonts/Panchang-Extrabold.woff2') format('woff2'),
+       url('../../assets/fonts/Panchang-Extrabold.woff') format('woff'),
+       url('../../assets/fonts/Panchang-Extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 800.0;
+*
+* available axes:
+'wght' (range from 200.0 to 800.0
+*/
+@font-face {
+  font-family: 'Panchang-Variable';
+  src: url('../../assets/fonts/Panchang-Variable.woff2') format('woff2'),
+       url('../../assets/fonts/Panchang-Variable.woff') format('woff'),
+       url('../../assets/fonts/Panchang-Variable.ttf') format('truetype');
+  font-weight: 200 800;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Police Racing Sans One pour les titres dans la page services */
+@font-face {
+    font-family: 'RacingSansOne-Regular';
+    src: url('../../assets/fonts/RacingSansOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}

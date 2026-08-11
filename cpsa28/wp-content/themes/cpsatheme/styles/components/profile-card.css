@@ -1,0 +1,66 @@
+.profile-card {
+    background-color: var(--white);
+    color: var(--black);
+    width: 1045px;
+    height: 405px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 30px 60px;
+    border-radius: 50px;
+}
+
+.profile-card__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card__name {
+    font-size: var( --fs-sub-heading);
+}
+
+.profile-card__privilege {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-card__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-card__header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 60px;
+    font-size: var( --fs-sub-heading);
+    font-family: var(--font-sans-serif-semiBold);
+}
+
+.profile-card__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.profile-card__infos {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.profile-card__infos--mail {
+    width: auto;
+}
+
+.profile-card__intitule {
+    font-family: var(--font-sans-serif-semiBold);
+}

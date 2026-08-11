@@ -1,0 +1,153 @@
+.option-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.option-buttons__intitule {
+    padding: 0 30px;
+    line-height: 30px;
+}
+
+.option-buttons__first-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 55px;
+}
+
+.option-buttons__second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 55px;
+}
+
+.option-buttons__third-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 55px;
+}
+
+.option-buttons__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 165px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-color: var(--black);
+}
+
+.option-buttons__btn--mecanique {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/mecanique.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
+}
+
+.option-buttons__btn--exterieur {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/exterieur.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
+}
+
+.option-buttons__btn--interieur {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/interieur.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
+}
+
+.option-buttons__btn--protection {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/protection.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
+}
+
+.option-buttons__btn--document {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/document.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
+}
+
+.option-buttons__btn--confort {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/confort.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
+}
+
+.option-buttons__btn--audio {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/audio.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
+}
+
+.option-buttons__btn--securite {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/securite.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: cover, cover;
+}
+
+.option-buttons__btn:hover {
+    background: var(--primary);
+    cursor: pointer;
+    transition: ease 0.3s;
+    color: var(--black);
+}
+
+.option-buttons__intitule {
+    text-align: center;
+    margin: 0;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+    .option-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .option-buttons__first-column,
+    .option-buttons__second-column {
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .option-buttons__third-column {
+        flex-wrap: wrap-reverse;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1179px) {
+    .option-buttons {
+        margin-top: 40px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .option-buttons__first-column,
+    .option-buttons__second-column{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .option-buttons__third-column {
+        flex-wrap: wrap-reverse;
+        flex-direction: row;
+    }
+}

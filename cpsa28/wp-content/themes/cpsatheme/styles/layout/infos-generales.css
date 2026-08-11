@@ -1,0 +1,114 @@
+.infos-generales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 980px;
+}
+
+.infos-generales__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.infos-generales__logo::after {
+    content: "";
+    position: absolute;
+    width: 351px;
+    height: 2px;
+    margin: 90px auto 0;
+    background-color: var(--primary);
+}
+
+.infos-generales__img-logo {
+    width: auto;
+    height: 80px;
+}
+
+.infos-generales__lines {
+    width: 100%;
+}
+
+.infos-generales__line {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.infos-generales__line-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.infos-generales__line-item--start {
+    width: 45%;
+}
+
+.infos-generales__line-item--end {
+    width: 45%;
+}
+
+.infos-generales__label {
+    font-size: var(--fs-paragraph-bis);
+    font-family: var(--font-sans-serif-bold);
+}
+
+.infos-generales__intitule {
+    font-size: var(--fs-paragraph-bis);
+    font-family: var(--font-sans-serif-medium);
+}
+
+.infos-generales__intitule--marque {
+    text-transform: uppercase;
+}
+
+.infos-generales__prix {
+    font-size: 24px;
+    font-family: var(--font-sans-serif-bold);
+    color: var(--primary);
+}
+
+.infos-generales__prix::after {
+    display: block;
+    content: "";
+    width: 351px;
+    height: 2px;
+    margin: 10px auto 0;
+    background-color: var(--primary);
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+    .infos-generales {
+        width: auto;
+        gap: 30px;
+    }
+
+    .infos-generales__label {
+        display: none;
+    }
+
+    .infos-generales__line-item--end {
+        justify-content: end;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1179px) {
+    .infos-generales {
+        width: 80%;
+        gap: 30px;
+    }
+    
+    .infos-generales__label {
+        display: none;
+    }
+
+    .infos-generales__line-item--end {
+        justify-content: end;
+    }
+}

@@ -1,0 +1,548 @@
+.section {
+  color: var(--white);
+  margin-top: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section__politique {
+  align-items: baseline;
+  text-align: left;
+}
+
+.section__header--vehicule {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1180px;
+  width: 1180px;
+}
+
+.section__header--event {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  max-width: 1180px;
+  width: 1180px;
+}
+
+.section--list {
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.section__title {
+  font-size: var(--fs-heading);
+  color: var(--primary);
+  font-family: var(--font-sans-serif-bold);
+  margin-top: 15px;
+}
+
+.section__title--service {
+  margin-bottom: 60px;
+}
+
+.section__title--politique {
+  margin-bottom: 30px;
+}
+
+.section__title::after {
+  display: block;
+  content: "";
+  width: 351px;
+  height: 2px;
+  margin: 10px auto 0; /* top, horizontal auto to center, bottom */
+  background-color: var(--white);
+}
+
+.section__btn {
+  display: flex;
+}
+
+.section__btn--service {
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section__paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 43px;
+}
+
+.section__paragraph--garantie {
+  gap: 80px;
+}
+
+.section__paragraph--politique {
+  gap: 10px;
+  align-items: baseline;
+  text-align: left;
+}
+
+.section__texte--garantie {
+  font-size: var(--fs-sub-heading);
+  margin: 0;
+}
+
+.section__texte-link {
+  text-decoration: none;
+}
+
+.section__texte-link:hover {
+  transition: all 0.3s ease;
+}
+
+.section__texte--width {
+  width: 60%;
+}
+
+.section__container-text {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section__container-text__first,
+.section__container-text__second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.section__container-text__width {
+  width: 480px;
+}
+
+.section__surlign {
+  color: var(--primary);
+}
+
+.section__btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.section__btns--catalogue {
+  margin-top: 75px;
+}
+
+.section--filtre {
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  height: 444px;
+}
+
+.section--welcome {
+  background: url("../../../assets/img/CPSA28.jpg") no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative; /* needed for overlay */
+  height: 445px;
+}
+
+/* Overlay pour assombrir uniquement l'image de fond sans affecter le contenu */
+.section--welcome::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* couvre tout le conteneur */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* changez l'alpha pour ajuster l'intensité (0.0 - 1.0) */
+  z-index: 0;
+  pointer-events: none; /* ne bloque pas les interactions */
+}
+
+/* S'assurer que le contenu apparaît au-dessus de l'overlay */
+.section--welcome > * {
+  position: relative;
+  z-index: 1;
+}
+
+.section--nouveaute {
+  background: var(--white);
+  height: 550px;
+  display: block;
+}
+
+.section__title--nouveaute::after {
+  display: block;
+  content: "";
+  width: 351px;
+  height: 2px;
+  margin: 10px auto 0; /* top, horizontal auto to center, bottom */
+  background-color: var(--black);
+}
+
+.section--club {
+  background: var(--gray-800);
+  height: 445px;
+  padding-bottom: 30px;
+}
+
+.section__intro {
+  color: var(--white);
+}
+
+.section--catalogue {
+  display: flex;
+  gap: 50px;
+}
+
+.section--detail__vehicule {
+  margin-bottom: 100px;
+}
+
+.section--equip-option {
+  margin-bottom: 200px;
+}
+
+.section__chapo {
+  font-size: var(--fs-sub-heading);
+}
+
+.section__chapo--recherche {
+  margin-top: 75px;
+}
+
+.section--partners {
+  margin-bottom: 45px;
+}
+
+.section--garantie::before,
+.section--partners::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  margin: 0 auto 75px; /* top, horizontal auto to center, bottom */
+  background-color: var(--white);
+}
+
+.section--partners__logos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  margin-top: 70px;
+}
+
+.section--contact {
+  margin-bottom: 185px;
+}
+
+.section--situer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 187px;
+}
+
+.section--formulaire__contact {
+  margin-bottom: 125px;
+}
+
+.section__coordonnees {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: left;
+}
+
+.section__nameCompany {
+  font-family: var(--font-sans-serif-bold);
+  font-size: var(--fs-sub-heading);
+}
+
+.section__texte {
+  font-size: var(--fs-paragraph-bis);
+}
+
+.section__texte--telephone {
+  font-family: var(--font-sans-serif-semiBold);
+  color: var(--primary);
+}
+
+.section--connexion {
+  margin-top: 177px;
+  margin-bottom: 222px;
+}
+
+.section__texte--memberRole{
+  font-size: var(--fs-sub-heading);
+  font-family: var(--font-sans-serif-medium);
+}
+
+.section__privilege {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 110px;
+}
+
+.section__privilege-top {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.section--recherche {
+  margin-bottom: 75px;
+}
+
+.section--formulaire-recherche {
+  margin-top: 100px;
+  margin-bottom: 245px;
+}
+
+.section__form-champs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+.section__texte--form-champs {
+  width: 545px;
+}
+
+
+.section--event-list {
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .section {
+    height: auto;
+  }
+
+  .section__header--vehicule {
+    width: auto;
+  }
+
+  .section--filtre {
+    height: auto;
+  }
+
+  .section--nouveaute {
+    height: auto;
+  }
+
+  .section--club {
+    padding-bottom: 30px;
+  }
+
+  .section--list {
+    margin-bottom: 60px;
+  }
+
+  .section--equip-option {
+    margin-bottom: 50px;
+  }
+
+  .section--situer {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .section__adresse,
+  .section__contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .section__coordonnees {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section__title {
+    font-size: var(--fs-sub-heading);
+    width: auto;
+  }
+
+  .section__title::after {
+    width: 125px;
+  }
+
+  .section__btn {
+    justify-content: center;
+  }
+
+  .section__btn--service {
+    justify-content: space-around;
+  }
+
+  .section__paragraph {
+    gap: 50px;
+    margin: 10px;
+  }
+
+  .section__paragraph--club {
+    gap: 10px;
+  }
+
+  .section__texte {
+    font-size: var(--fs-paragraph);
+    line-height: 25px;
+  }
+
+  .section__texte--garantie {
+    font-size: var(--fs-paragraph-bis);
+  }
+
+  .section__btns {
+    width: auto;
+    height: 35px;
+  }
+
+  .section__intro {
+    font-size: var(--fs-paragraph-bis);
+    line-height: 25px;
+  }
+
+  .section__chapo {
+    font-size: var(--fs-paragraph-bis);
+  }
+
+  .section__container-text {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .section__container-text__width {
+    width: auto;
+  }
+
+  .section__container-text__first,
+  .section__container-text__second {
+    gap: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1179px) {
+  .section {
+    height: auto;
+  }
+
+  .section__header--vehicule {
+    width: auto;
+  }
+
+  .section--filtre {
+    height: auto;
+  }
+
+  .section--nouveaute {
+    height: auto;
+  }
+
+  .section--club {
+    padding-bottom: 30px;
+  }
+
+  .section--equip-option {
+    margin-bottom: 50px;
+  }
+
+  .section--situer {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .section__adresse,
+  .section__contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .section__coordonnees {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section__title {
+    font-size: var(--fs-sub-heading);
+    width: auto;
+  }
+
+  .section__title::after {
+    width: 125px;
+  }
+
+  .section__btn {
+    justify-content: center;
+  }
+
+  .section__btn--service {
+    justify-content: space-around;
+  }
+
+  .section__paragraph {
+    gap: 50px;
+    margin: 10px;
+  }
+
+  .section__paragraph--club {
+    gap: 10px;
+  }
+
+  .section__container-text__width {
+    width: auto;
+  }
+
+  .section__texte {
+    line-height: 35px;
+  }
+
+  .section__texte--garantie {
+    font-size: 16px;
+  }
+
+  .section__btns {
+    width: auto;
+    height: 35px;
+  }
+
+  .section__intro {
+    font-size: var(--fs-paragraph-bis);
+    line-height: 25px;
+  }
+
+  .section__chapo {
+    font-size: 16px;
+  }
+
+  .section__container-text__first,
+  .section__container-text__second {
+    gap: 15px;
+  }
+}

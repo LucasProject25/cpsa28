@@ -1,0 +1,166 @@
+.modal {
+  display: none; /* Hidden by default (desktop fallback) */
+  position: fixed; /* Stay in place */
+  z-index: 1000;
+  left: 22%;
+  top: 5%;
+  width: 900px; /* desktop width */
+  height: 715px; /* desktop height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: var(--black); /* Black background for modal content */
+}
+
+.modal-dashboard {
+  width: 780px;
+  left: 25%;
+}
+
+/* Modal Content */
+.modal__content {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.close {
+  width: 35px;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--secondary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.modal_container-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 90px;
+  padding: 30px;
+}
+
+.modal__container-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.bi-gear-fill,
+.bi-car-front-fill,
+.bi-palette-fill,
+.bi-lock-fill,
+.bi-file-earmark-text-fill,
+.bi-lightbulb-fill,
+.bi-volume-up-fill,
+.bi-shield-fill {
+  display: block;
+  color: var(--primary);
+}
+
+.modal__title {
+  color: var(--primary);
+  margin-bottom: 50px;
+}
+
+.modal__container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 50px;
+  text-align: left;
+}
+
+.modal__text {
+  margin: 0;
+}
+
+.bi-x-lg {
+  display: block;
+  font-size: 35px;
+  float: right;
+}
+
+.modal__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.modal__input {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.modal__text {
+  width: 300px;
+  height: 35px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  /* Mobile: modal covers full screen and uses translateY for enter/exit animation */
+  .modal {
+    display: block; /* keep in flow as fixed element but hidden by transforms/visibility */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    transform: translateY(100%);
+    transition: transform 320ms ease, opacity 200ms ease;
+    opacity: 0;
+    visibility: hidden;
+    will-change: transform, opacity;
+    background-color: var(--black);
+  }
+
+  /* Open state: slide up into view */
+  .modal.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal__text {
+    font-size: var(--fs-paragraph-bis);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1179px) {
+  /* Mobile: modal covers full screen and uses translateY for enter/exit animation */
+  .modal {
+    display: block; /* keep in flow as fixed element but hidden by transforms/visibility */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    transform: translateY(100%);
+    transition: transform 320ms ease, opacity 200ms ease;
+    opacity: 0;
+    visibility: hidden;
+    will-change: transform, opacity;
+    background-color: var(--black);
+  }
+
+  /* Open state: slide up into view */
+  .modal.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal__text {
+    font-size: var(--fs-paragraph-bis);
+  }
+}

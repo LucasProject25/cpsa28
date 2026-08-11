@@ -1,0 +1,135 @@
+.myBtn {
+  display: inline-block;
+  width: auto;
+  height: 50px;
+  text-decoration: none;
+  font-size: var(--fs-paragraph-bis);
+  border: 3px solid var(--secondary);
+  padding: 12px 30px;
+}
+
+.myBtn--active {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.myBtn--page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 275px;
+}
+
+.myBtn--page__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  font-size: var(--fs-sub-heading);
+}
+
+.myBtn--contact {
+  background: transparent;
+  border: 3px solid var(--white);
+  color: var(--white);
+  margin-left: 90px;
+}
+
+.myBtn--connexion {
+  background: transparent;
+  border: 3px solid var(--white);
+  color: var(--white);
+}
+
+.myBtn--connexion:hover {
+  background-color: var(--secondary);
+  border: 3px solid var(--secondary);
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.myBtn:hover {
+  background-color: var(--secondary);
+  border: 3px solid var(--secondary);
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.myBtn--contact:hover {
+  background-color: var(--secondary);
+  border: 3px solid var(--secondary);
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.myBtn--dashboard {
+  margin-top: 90px;
+}
+
+.myBtn-cs-submit {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  font-size: var(--fs-paragraph-bis);
+  background-color: var(--secondary);
+  color: var(--white);
+  opacity: 70%;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.myBtn-cs-submit:hover {
+  background-color: var(--gray-800);
+  color: var(--primary);
+  transition: all 0.3s ease;
+}
+
+.myBtn-cs-submit--all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  opacity: 100%;
+}
+
+.myBtn--profile-card {
+  width: 175px;
+  height: 40px;
+  font-size: var(--fs-paragraph);
+  border: 0;
+  border-radius: 10px;
+}
+
+.myBtn--profile-card:hover {
+  background-color: var(--black);
+  color: var(--secondary);
+  transition: all 0.5s ease;
+}
+
+.myBtn--modal {
+  background: transparent;
+  color: var(--secondary);
+  border-radius: 10px;
+}
+
+.myBtn--recherche {
+  width: 250px;
+  background: transparent;
+  color: var(--white);
+  border: 3px solid var(--white);
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .myBtn {
+    width: auto;
+    height: auto;
+    font-size: var(--fs-paragraph);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1179px) {
+  .myBtn {
+    height: auto;
+  }
+}

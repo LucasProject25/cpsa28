@@ -1,0 +1,911 @@
+Log created: 2026-03-12 09:00:29
+Type: backup
+[2026-03-12 09:00:31][notice]Start backing up.
+[2026-03-12 09:00:31][notice]server info fcgi:Off max execution time: 300 wp version:6.9.4 php version:8.3.1 db version:5.7.24 php ini:safe_mode: memory_limit:512M memory_get_usage:57,55 Mo memory_get_peak_usage:58,37 Mo extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2026-03-12 09:00:31][notice]Prepare to backup backup_db files.
+[2026-03-12 09:00:31][notice]Start exporting database.
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_etat
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_motif
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_role
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_statut
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_types
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_customer
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_documentrecherche
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_equipe
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_links
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_privilege
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_propositionrecherche
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_term_relationships
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_commentmeta
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_term_taxonomy
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_termmeta
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_terms
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_usermeta
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_rechercheperso
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_users
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_rendezvous
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_comments
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_posts
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_postmeta
+[2026-03-12 09:00:31][notice]Preparing to dump table wp_options
+[2026-03-12 09:00:31][notice]Exporting database finished.
+[2026-03-12 09:00:31][notice]Start compressing database
+[2026-03-12 09:00:31][notice]Prepare to zip file. file: localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_db.sql
+[2026-03-12 09:00:31][notice]Adding zip files completed.localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_db.part001.zip, filesize: 191,83 Ko
+[2026-03-12 09:00:31][notice]Compressing database completed
+[2026-03-12 09:00:31][notice]Backing up backup_db completed.
+[2026-03-12 09:00:31][notice]Prepare to backup backup_themes files.
+[2026-03-12 09:00:32][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_themes.part001.zip index:140
+[2026-03-12 09:00:43][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_themes.part001.zip success. index:140 file size:177,03 Mo
+[2026-03-12 09:00:44][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_themes.part002.zip index:772
+[2026-03-12 09:00:49][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_themes.part002.zip success. index:772 file size:49,32 Mo
+[2026-03-12 09:00:49][notice]Backing up backup_themes completed.
+[2026-03-12 09:00:49][notice]Prepare to backup backup_plugin files.
+[2026-03-12 09:00:50][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_plugin.part001.zip index:957
+[2026-03-12 09:00:54][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_plugin.part001.zip success. index:957 file size:7,33 Mo
+[2026-03-12 09:00:54][notice]Backing up backup_plugin completed.
+[2026-03-12 09:00:54][notice]Prepare to backup backup_uploads files.
+[2026-03-12 09:00:55][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_uploads.part001.zip index:140
+[2026-03-12 09:01:06][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_uploads.part001.zip success. index:140 file size:197,74 Mo
+[2026-03-12 09:01:07][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_uploads.part002.zip index:280
+[2026-03-12 09:01:19][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_uploads.part002.zip success. index:280 file size:198,67 Mo
+[2026-03-12 09:01:20][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_uploads.part003.zip index:631
+[2026-03-12 09:01:28][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_uploads.part003.zip success. index:631 file size:121,21 Mo
+[2026-03-12 09:01:29][notice]Backing up backup_uploads completed.
+[2026-03-12 09:01:29][notice]Prepare to backup backup_content files.
+[2026-03-12 09:01:29][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_content.part001.zip index:114
+[2026-03-12 09:01:30][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_content.part001.zip success. index:114 file size:1,58 Mo
+[2026-03-12 09:01:30][notice]Backing up backup_content completed.
+[2026-03-12 09:01:30][notice]Prepare to backup backup_core files.
+[2026-03-12 09:01:32][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_core.part001.zip index:2915
+[2026-03-12 09:01:40][notice]Compressing zip file:localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_core.part001.zip success. index:2915 file size:14,59 Mo
+[2026-03-12 09:01:40][notice]Backing up backup_core completed.
+[2026-03-12 09:01:40][notice]Prepare to backup backup_merge files.
+[2026-03-12 09:01:40][notice]Prepare to zip file. file: localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_db.zip
+[2026-03-12 09:01:40][notice]Adding zip files completed.localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip, filesize: 192,18 Ko
+[2026-03-12 09:01:40][notice]Prepare to zip file. file: localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_themes.part001.zip
+[2026-03-12 09:01:50][notice]Adding zip files completed.localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip, filesize: 177,21 Mo
+[2026-03-12 09:01:51][notice]Prepare to zip file. file: localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_themes.part002.zip
+[2026-03-12 09:01:53][notice]Adding zip files completed.localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part002.zip, filesize: 49,23 Mo
+[2026-03-12 09:01:53][notice]Prepare to zip file. file: localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_plugin.zip
+[2026-03-12 09:01:54][notice]Adding zip files completed.localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part002.zip, filesize: 56,40 Mo
+[2026-03-12 09:01:54][notice]Prepare to zip file. file: localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_uploads.part001.zip
+[2026-03-12 09:02:05][notice]Adding zip files completed.localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip, filesize: 197,77 Mo
+[2026-03-12 09:02:06][notice]Prepare to zip file. file: localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_uploads.part002.zip
+[2026-03-12 09:02:17][notice]Adding zip files completed.localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part004.zip, filesize: 198,69 Mo
+[2026-03-12 09:02:18][notice]Prepare to zip file. file: localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_uploads.part003.zip
+[2026-03-12 09:02:24][notice]Adding zip files completed.localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip, filesize: 121,21 Mo
+[2026-03-12 09:02:24][notice]Prepare to zip file. file: localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_content.zip
+[2026-03-12 09:02:25][notice]Adding zip files completed.localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip, filesize: 122,78 Mo
+[2026-03-12 09:02:25][notice]Prepare to zip file. file: localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_core.zip
+[2026-03-12 09:02:26][notice]Adding zip files completed.localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip, filesize: 136,91 Mo
+[2026-03-12 09:02:27][notice]Backing up backup_merge completed.
+[2026-03-12 09:02:27][notice]files: ["C:\/MAMP\/htdocs\/cpsa28\/wp-content\/wpvividbackups\/localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip","C:\/MAMP\/htdocs\/cpsa28\/wp-content\/wpvividbackups\/localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part002.zip","C:\/MAMP\/htdocs\/cpsa28\/wp-content\/wpvividbackups\/localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip","C:\/MAMP\/htdocs\/cpsa28\/wp-content\/wpvividbackups\/localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part004.zip","C:\/MAMP\/htdocs\/cpsa28\/wp-content\/wpvividbackups\/localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip"]
+[2026-03-12 09:02:28][notice]Check upload folder wpvivid_backup
+[2026-03-12 09:02:35][notice]Start uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip
+[2026-03-12 09:02:35][notice]Check if the server already has the same name file.
+[2026-03-12 09:02:36][notice]Initiate a resumable upload session.
+[2026-03-12 09:02:37][notice]progress:1048576.
+[2026-03-12 09:02:37][notice]progress:2097152.
+[2026-03-12 09:02:37][notice]progress:3145728.
+[2026-03-12 09:02:37][notice]progress:4194304.
+[2026-03-12 09:02:37][notice]progress:5242880.
+[2026-03-12 09:02:37][notice]progress:6291456.
+[2026-03-12 09:02:38][notice]progress:7340032.
+[2026-03-12 09:02:38][notice]progress:8388608.
+[2026-03-12 09:02:38][notice]progress:9437184.
+[2026-03-12 09:02:38][notice]progress:10485760.
+[2026-03-12 09:02:38][notice]progress:11534336.
+[2026-03-12 09:02:38][notice]progress:12582912.
+[2026-03-12 09:02:38][notice]progress:13631488.
+[2026-03-12 09:02:39][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip Total size: 177,21 Mo Uploaded: 14,00 Mo speed:3670.02kb/s
+[2026-03-12 09:02:39][notice]progress:14680064.
+[2026-03-12 09:02:39][notice]progress:15728640.
+[2026-03-12 09:02:39][notice]progress:16777216.
+[2026-03-12 09:02:39][notice]progress:17825792.
+[2026-03-12 09:02:39][notice]progress:18874368.
+[2026-03-12 09:02:39][notice]progress:19922944.
+[2026-03-12 09:02:39][notice]progress:20971520.
+[2026-03-12 09:02:40][notice]progress:22020096.
+[2026-03-12 09:02:40][notice]progress:23068672.
+[2026-03-12 09:02:40][notice]progress:24117248.
+[2026-03-12 09:02:40][notice]progress:25165824.
+[2026-03-12 09:02:40][notice]progress:26214400.
+[2026-03-12 09:02:40][notice]progress:27262976.
+[2026-03-12 09:02:40][notice]progress:28311552.
+[2026-03-12 09:02:41][notice]progress:29360128.
+[2026-03-12 09:02:41][notice]progress:30408704.
+[2026-03-12 09:02:41][notice]progress:31457280.
+[2026-03-12 09:02:41][notice]progress:32505856.
+[2026-03-12 09:02:41][notice]progress:33554432.
+[2026-03-12 09:02:41][notice]progress:34603008.
+[2026-03-12 09:02:41][notice]progress:35651584.
+[2026-03-12 09:02:41][notice]progress:36700160.
+[2026-03-12 09:02:42][notice]progress:37748736.
+[2026-03-12 09:02:42][notice]progress:38797312.
+[2026-03-12 09:02:42][notice]progress:39845888.
+[2026-03-12 09:02:42][notice]progress:40894464.
+[2026-03-12 09:02:42][notice]progress:41943040.
+[2026-03-12 09:02:42][notice]progress:42991616.
+[2026-03-12 09:02:42][notice]progress:44040192.
+[2026-03-12 09:02:43][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip Total size: 177,21 Mo Uploaded: 43,00 Mo speed:7602.18kb/s
+[2026-03-12 09:02:43][notice]progress:45088768.
+[2026-03-12 09:02:43][notice]progress:46137344.
+[2026-03-12 09:02:43][notice]progress:47185920.
+[2026-03-12 09:02:43][notice]progress:48234496.
+[2026-03-12 09:02:43][notice]progress:49283072.
+[2026-03-12 09:02:43][notice]progress:50331648.
+[2026-03-12 09:02:43][notice]progress:51380224.
+[2026-03-12 09:02:43][notice]progress:52428800.
+[2026-03-12 09:02:44][notice]progress:53477376.
+[2026-03-12 09:02:44][notice]progress:54525952.
+[2026-03-12 09:02:44][notice]progress:55574528.
+[2026-03-12 09:02:44][notice]progress:56623104.
+[2026-03-12 09:02:44][notice]progress:57671680.
+[2026-03-12 09:02:44][notice]progress:58720256.
+[2026-03-12 09:02:45][notice]progress:59768832.
+[2026-03-12 09:02:45][notice]progress:60817408.
+[2026-03-12 09:02:45][notice]progress:61865984.
+[2026-03-12 09:02:45][notice]progress:62914560.
+[2026-03-12 09:02:45][notice]progress:63963136.
+[2026-03-12 09:02:45][notice]progress:65011712.
+[2026-03-12 09:02:45][notice]progress:66060288.
+[2026-03-12 09:02:46][notice]progress:67108864.
+[2026-03-12 09:02:46][notice]progress:68157440.
+[2026-03-12 09:02:46][notice]progress:69206016.
+[2026-03-12 09:02:46][notice]progress:70254592.
+[2026-03-12 09:02:46][notice]progress:71303168.
+[2026-03-12 09:02:46][notice]progress:72351744.
+[2026-03-12 09:02:46][notice]progress:73400320.
+[2026-03-12 09:02:47][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip Total size: 177,21 Mo Uploaded: 71,00 Mo speed:7340.03kb/s
+[2026-03-12 09:02:47][notice]progress:74448896.
+[2026-03-12 09:02:47][notice]progress:75497472.
+[2026-03-12 09:02:47][notice]progress:76546048.
+[2026-03-12 09:02:47][notice]progress:77594624.
+[2026-03-12 09:02:47][notice]progress:78643200.
+[2026-03-12 09:02:47][notice]progress:79691776.
+[2026-03-12 09:02:47][notice]progress:80740352.
+[2026-03-12 09:02:48][notice]progress:81788928.
+[2026-03-12 09:02:48][notice]progress:82837504.
+[2026-03-12 09:02:48][notice]progress:83886080.
+[2026-03-12 09:02:48][notice]progress:84934656.
+[2026-03-12 09:02:48][notice]progress:85983232.
+[2026-03-12 09:02:48][notice]progress:87031808.
+[2026-03-12 09:02:48][notice]progress:88080384.
+[2026-03-12 09:02:49][notice]progress:89128960.
+[2026-03-12 09:02:49][notice]progress:90177536.
+[2026-03-12 09:02:49][notice]progress:91226112.
+[2026-03-12 09:02:49][notice]progress:92274688.
+[2026-03-12 09:02:49][notice]progress:93323264.
+[2026-03-12 09:02:49][notice]progress:94371840.
+[2026-03-12 09:02:49][notice]progress:95420416.
+[2026-03-12 09:02:50][notice]progress:96468992.
+[2026-03-12 09:02:50][notice]progress:97517568.
+[2026-03-12 09:02:50][notice]progress:98566144.
+[2026-03-12 09:02:50][notice]progress:99614720.
+[2026-03-12 09:02:50][notice]progress:100663296.
+[2026-03-12 09:02:50][notice]progress:101711872.
+[2026-03-12 09:02:50][notice]progress:102760448.
+[2026-03-12 09:02:51][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip Total size: 177,21 Mo Uploaded: 99,00 Mo speed:7340.03kb/s
+[2026-03-12 09:02:51][notice]progress:103809024.
+[2026-03-12 09:02:51][notice]progress:104857600.
+[2026-03-12 09:02:51][notice]progress:105906176.
+[2026-03-12 09:02:51][notice]progress:106954752.
+[2026-03-12 09:02:51][notice]progress:108003328.
+[2026-03-12 09:02:51][notice]progress:109051904.
+[2026-03-12 09:02:51][notice]progress:110100480.
+[2026-03-12 09:02:52][notice]progress:111149056.
+[2026-03-12 09:02:52][notice]progress:112197632.
+[2026-03-12 09:02:52][notice]progress:113246208.
+[2026-03-12 09:02:52][notice]progress:114294784.
+[2026-03-12 09:02:52][notice]progress:115343360.
+[2026-03-12 09:02:52][notice]progress:116391936.
+[2026-03-12 09:02:52][notice]progress:117440512.
+[2026-03-12 09:02:53][notice]progress:118489088.
+[2026-03-12 09:02:53][notice]progress:119537664.
+[2026-03-12 09:02:53][notice]progress:120586240.
+[2026-03-12 09:02:53][notice]progress:121634816.
+[2026-03-12 09:02:53][notice]progress:122683392.
+[2026-03-12 09:02:53][notice]progress:123731968.
+[2026-03-12 09:02:53][notice]progress:124780544.
+[2026-03-12 09:02:53][notice]progress:125829120.
+[2026-03-12 09:02:54][notice]progress:126877696.
+[2026-03-12 09:02:54][notice]progress:127926272.
+[2026-03-12 09:02:54][notice]progress:128974848.
+[2026-03-12 09:02:54][notice]progress:130023424.
+[2026-03-12 09:02:54][notice]progress:131072000.
+[2026-03-12 09:02:54][notice]progress:132120576.
+[2026-03-12 09:02:54][notice]progress:133169152.
+[2026-03-12 09:02:55][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip Total size: 177,21 Mo Uploaded: 128,00 Mo speed:7602.18kb/s
+[2026-03-12 09:02:55][notice]progress:134217728.
+[2026-03-12 09:02:55][notice]progress:135266304.
+[2026-03-12 09:02:55][notice]progress:136314880.
+[2026-03-12 09:02:55][notice]progress:137363456.
+[2026-03-12 09:02:55][notice]progress:138412032.
+[2026-03-12 09:02:55][notice]progress:139460608.
+[2026-03-12 09:02:55][notice]progress:140509184.
+[2026-03-12 09:02:56][notice]progress:141557760.
+[2026-03-12 09:02:56][notice]progress:142606336.
+[2026-03-12 09:02:56][notice]progress:143654912.
+[2026-03-12 09:02:56][notice]progress:144703488.
+[2026-03-12 09:02:56][notice]progress:145752064.
+[2026-03-12 09:02:56][notice]progress:146800640.
+[2026-03-12 09:02:56][notice]progress:147849216.
+[2026-03-12 09:02:57][notice]progress:148897792.
+[2026-03-12 09:02:57][notice]progress:149946368.
+[2026-03-12 09:02:57][notice]progress:150994944.
+[2026-03-12 09:02:57][notice]progress:152043520.
+[2026-03-12 09:02:57][notice]progress:153092096.
+[2026-03-12 09:02:57][notice]progress:154140672.
+[2026-03-12 09:02:57][notice]progress:155189248.
+[2026-03-12 09:02:57][notice]progress:156237824.
+[2026-03-12 09:02:58][notice]progress:157286400.
+[2026-03-12 09:02:58][notice]progress:158334976.
+[2026-03-12 09:02:58][notice]progress:159383552.
+[2026-03-12 09:02:58][notice]progress:160432128.
+[2026-03-12 09:02:58][notice]progress:161480704.
+[2026-03-12 09:02:58][notice]progress:162529280.
+[2026-03-12 09:02:58][notice]progress:163577856.
+[2026-03-12 09:02:59][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip Total size: 177,21 Mo Uploaded: 157,00 Mo speed:7602.18kb/s
+[2026-03-12 09:02:59][notice]progress:164626432.
+[2026-03-12 09:02:59][notice]progress:165675008.
+[2026-03-12 09:02:59][notice]progress:166723584.
+[2026-03-12 09:02:59][notice]progress:167772160.
+[2026-03-12 09:02:59][notice]progress:168820736.
+[2026-03-12 09:02:59][notice]progress:169869312.
+[2026-03-12 09:02:59][notice]progress:170917888.
+[2026-03-12 09:03:00][notice]progress:171966464.
+[2026-03-12 09:03:00][notice]progress:173015040.
+[2026-03-12 09:03:00][notice]progress:174063616.
+[2026-03-12 09:03:00][notice]progress:175112192.
+[2026-03-12 09:03:00][notice]progress:176160768.
+[2026-03-12 09:03:00][notice]progress:177209344.
+[2026-03-12 09:03:00][notice]progress:178257920.
+[2026-03-12 09:03:00][notice]progress:179306496.
+[2026-03-12 09:03:01][notice]progress:180355072.
+[2026-03-12 09:03:01][notice]progress:181403648.
+[2026-03-12 09:03:01][notice]progress:182452224.
+[2026-03-12 09:03:01][notice]progress:183500800.
+[2026-03-12 09:03:01][notice]progress:184549376.
+[2026-03-12 09:03:01][notice]progress:185597952.
+[2026-03-12 09:03:04][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip Total size: 177,21 Mo Uploaded: 177,21 Mo speed:4238.3kb/s
+[2026-03-12 09:03:04][notice]progress:185597952.
+[2026-03-12 09:03:04][notice]Finished uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part001.zip
+[2026-03-12 09:03:04][notice]Upload success.
+[2026-03-12 09:03:04][notice]Start uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part002.zip
+[2026-03-12 09:03:04][notice]Check if the server already has the same name file.
+[2026-03-12 09:03:04][notice]Initiate a resumable upload session.
+[2026-03-12 09:03:08][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part002.zip Total size: 56,40 Mo Uploaded: 1,00 Mo speed:262.14kb/s
+[2026-03-12 09:03:08][notice]progress:1048576.
+[2026-03-12 09:03:08][notice]progress:2097152.
+[2026-03-12 09:03:08][notice]progress:3145728.
+[2026-03-12 09:03:08][notice]progress:4194304.
+[2026-03-12 09:03:09][notice]progress:5242880.
+[2026-03-12 09:03:09][notice]progress:6291456.
+[2026-03-12 09:03:09][notice]progress:7340032.
+[2026-03-12 09:03:09][notice]progress:8388608.
+[2026-03-12 09:03:09][notice]progress:9437184.
+[2026-03-12 09:03:09][notice]progress:10485760.
+[2026-03-12 09:03:09][notice]progress:11534336.
+[2026-03-12 09:03:10][notice]progress:12582912.
+[2026-03-12 09:03:10][notice]progress:13631488.
+[2026-03-12 09:03:10][notice]progress:14680064.
+[2026-03-12 09:03:10][notice]progress:15728640.
+[2026-03-12 09:03:10][notice]progress:16777216.
+[2026-03-12 09:03:10][notice]progress:17825792.
+[2026-03-12 09:03:10][notice]progress:18874368.
+[2026-03-12 09:03:10][notice]progress:19922944.
+[2026-03-12 09:03:11][notice]progress:20971520.
+[2026-03-12 09:03:11][notice]progress:22020096.
+[2026-03-12 09:03:11][notice]progress:23068672.
+[2026-03-12 09:03:11][notice]progress:24117248.
+[2026-03-12 09:03:11][notice]progress:25165824.
+[2026-03-12 09:03:11][notice]progress:26214400.
+[2026-03-12 09:03:11][notice]progress:27262976.
+[2026-03-12 09:03:11][notice]progress:28311552.
+[2026-03-12 09:03:12][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part002.zip Total size: 56,40 Mo Uploaded: 28,00 Mo speed:7077.89kb/s
+[2026-03-12 09:03:12][notice]progress:29360128.
+[2026-03-12 09:03:12][notice]progress:30408704.
+[2026-03-12 09:03:12][notice]progress:31457280.
+[2026-03-12 09:03:12][notice]progress:32505856.
+[2026-03-12 09:03:12][notice]progress:33554432.
+[2026-03-12 09:03:12][notice]progress:34603008.
+[2026-03-12 09:03:12][notice]progress:35651584.
+[2026-03-12 09:03:13][notice]progress:36700160.
+[2026-03-12 09:03:13][notice]progress:37748736.
+[2026-03-12 09:03:13][notice]progress:38797312.
+[2026-03-12 09:03:13][notice]progress:39845888.
+[2026-03-12 09:03:13][notice]progress:40894464.
+[2026-03-12 09:03:13][notice]progress:41943040.
+[2026-03-12 09:03:13][notice]progress:42991616.
+[2026-03-12 09:03:14][notice]progress:44040192.
+[2026-03-12 09:03:14][notice]progress:45088768.
+[2026-03-12 09:03:14][notice]progress:46137344.
+[2026-03-12 09:03:14][notice]progress:47185920.
+[2026-03-12 09:03:14][notice]progress:48234496.
+[2026-03-12 09:03:14][notice]progress:49283072.
+[2026-03-12 09:03:14][notice]progress:50331648.
+[2026-03-12 09:03:14][notice]progress:51380224.
+[2026-03-12 09:03:15][notice]progress:52428800.
+[2026-03-12 09:03:15][notice]progress:53477376.
+[2026-03-12 09:03:15][notice]progress:54525952.
+[2026-03-12 09:03:15][notice]progress:55574528.
+[2026-03-12 09:03:15][notice]progress:56623104.
+[2026-03-12 09:03:15][notice]progress:57671680.
+[2026-03-12 09:03:15][notice]progress:58720256.
+[2026-03-12 09:03:21][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part002.zip Total size: 56,40 Mo Uploaded: 56,40 Mo speed:3309.34kb/s
+[2026-03-12 09:03:21][notice]progress:58720256.
+[2026-03-12 09:03:21][notice]Finished uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part002.zip
+[2026-03-12 09:03:21][notice]Upload success.
+[2026-03-12 09:03:21][notice]Start uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip
+[2026-03-12 09:03:21][notice]Check if the server already has the same name file.
+[2026-03-12 09:03:28][notice]Initiate a resumable upload session.
+[2026-03-12 09:03:30][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip Total size: 197,77 Mo Uploaded: 1,00 Mo speed:116.51kb/s
+[2026-03-12 09:03:30][notice]progress:1048576.
+[2026-03-12 09:03:31][notice]progress:2097152.
+[2026-03-12 09:03:31][notice]progress:3145728.
+[2026-03-12 09:03:31][notice]progress:4194304.
+[2026-03-12 09:03:31][notice]progress:5242880.
+[2026-03-12 09:03:31][notice]progress:6291456.
+[2026-03-12 09:03:31][notice]progress:7340032.
+[2026-03-12 09:03:31][notice]progress:8388608.
+[2026-03-12 09:03:31][notice]progress:9437184.
+[2026-03-12 09:03:32][notice]progress:10485760.
+[2026-03-12 09:03:32][notice]progress:11534336.
+[2026-03-12 09:03:32][notice]progress:12582912.
+[2026-03-12 09:03:32][notice]progress:13631488.
+[2026-03-12 09:03:32][notice]progress:14680064.
+[2026-03-12 09:03:32][notice]progress:15728640.
+[2026-03-12 09:03:32][notice]progress:16777216.
+[2026-03-12 09:03:32][notice]progress:17825792.
+[2026-03-12 09:03:33][notice]progress:18874368.
+[2026-03-12 09:03:33][notice]progress:19922944.
+[2026-03-12 09:03:33][notice]progress:20971520.
+[2026-03-12 09:03:33][notice]progress:22020096.
+[2026-03-12 09:03:33][notice]progress:23068672.
+[2026-03-12 09:03:33][notice]progress:24117248.
+[2026-03-12 09:03:33][notice]progress:25165824.
+[2026-03-12 09:03:33][notice]progress:26214400.
+[2026-03-12 09:03:34][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip Total size: 197,77 Mo Uploaded: 26,00 Mo speed:6553.6kb/s
+[2026-03-12 09:03:34][notice]progress:27262976.
+[2026-03-12 09:03:34][notice]progress:28311552.
+[2026-03-12 09:03:34][notice]progress:29360128.
+[2026-03-12 09:03:34][notice]progress:30408704.
+[2026-03-12 09:03:34][notice]progress:31457280.
+[2026-03-12 09:03:34][notice]progress:32505856.
+[2026-03-12 09:03:34][notice]progress:33554432.
+[2026-03-12 09:03:35][notice]progress:34603008.
+[2026-03-12 09:03:35][notice]progress:35651584.
+[2026-03-12 09:03:35][notice]progress:36700160.
+[2026-03-12 09:03:35][notice]progress:37748736.
+[2026-03-12 09:03:35][notice]progress:38797312.
+[2026-03-12 09:03:35][notice]progress:39845888.
+[2026-03-12 09:03:35][notice]progress:40894464.
+[2026-03-12 09:03:35][notice]progress:41943040.
+[2026-03-12 09:03:35][notice]progress:42991616.
+[2026-03-12 09:03:36][notice]progress:44040192.
+[2026-03-12 09:03:36][notice]progress:45088768.
+[2026-03-12 09:03:36][notice]progress:46137344.
+[2026-03-12 09:03:36][notice]progress:47185920.
+[2026-03-12 09:03:36][notice]progress:48234496.
+[2026-03-12 09:03:36][notice]progress:49283072.
+[2026-03-12 09:03:36][notice]progress:50331648.
+[2026-03-12 09:03:36][notice]progress:51380224.
+[2026-03-12 09:03:37][notice]progress:52428800.
+[2026-03-12 09:03:37][notice]progress:53477376.
+[2026-03-12 09:03:37][notice]progress:54525952.
+[2026-03-12 09:03:37][notice]progress:55574528.
+[2026-03-12 09:03:37][notice]progress:56623104.
+[2026-03-12 09:03:37][notice]progress:57671680.
+[2026-03-12 09:03:37][notice]progress:58720256.
+[2026-03-12 09:03:38][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip Total size: 197,77 Mo Uploaded: 57,00 Mo speed:8126.46kb/s
+[2026-03-12 09:03:38][notice]progress:59768832.
+[2026-03-12 09:03:38][notice]progress:60817408.
+[2026-03-12 09:03:38][notice]progress:61865984.
+[2026-03-12 09:03:38][notice]progress:62914560.
+[2026-03-12 09:03:38][notice]progress:63963136.
+[2026-03-12 09:03:38][notice]progress:65011712.
+[2026-03-12 09:03:39][notice]progress:66060288.
+[2026-03-12 09:03:39][notice]progress:67108864.
+[2026-03-12 09:03:39][notice]progress:68157440.
+[2026-03-12 09:03:39][notice]progress:69206016.
+[2026-03-12 09:03:39][notice]progress:70254592.
+[2026-03-12 09:03:39][notice]progress:71303168.
+[2026-03-12 09:03:39][notice]progress:72351744.
+[2026-03-12 09:03:39][notice]progress:73400320.
+[2026-03-12 09:03:39][notice]progress:74448896.
+[2026-03-12 09:03:40][notice]progress:75497472.
+[2026-03-12 09:03:40][notice]progress:76546048.
+[2026-03-12 09:03:40][notice]progress:77594624.
+[2026-03-12 09:03:40][notice]progress:78643200.
+[2026-03-12 09:03:40][notice]progress:79691776.
+[2026-03-12 09:03:40][notice]progress:80740352.
+[2026-03-12 09:03:40][notice]progress:81788928.
+[2026-03-12 09:03:40][notice]progress:82837504.
+[2026-03-12 09:03:41][notice]progress:83886080.
+[2026-03-12 09:03:41][notice]progress:84934656.
+[2026-03-12 09:03:41][notice]progress:85983232.
+[2026-03-12 09:03:41][notice]progress:87031808.
+[2026-03-12 09:03:41][notice]progress:88080384.
+[2026-03-12 09:03:41][notice]progress:89128960.
+[2026-03-12 09:03:41][notice]progress:90177536.
+[2026-03-12 09:03:41][notice]progress:91226112.
+[2026-03-12 09:03:42][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip Total size: 197,77 Mo Uploaded: 88,00 Mo speed:8126.46kb/s
+[2026-03-12 09:03:42][notice]progress:92274688.
+[2026-03-12 09:03:42][notice]progress:93323264.
+[2026-03-12 09:03:42][notice]progress:94371840.
+[2026-03-12 09:03:42][notice]progress:95420416.
+[2026-03-12 09:03:42][notice]progress:96468992.
+[2026-03-12 09:03:42][notice]progress:97517568.
+[2026-03-12 09:03:42][notice]progress:98566144.
+[2026-03-12 09:03:43][notice]progress:99614720.
+[2026-03-12 09:03:43][notice]progress:100663296.
+[2026-03-12 09:03:43][notice]progress:101711872.
+[2026-03-12 09:03:43][notice]progress:102760448.
+[2026-03-12 09:03:43][notice]progress:103809024.
+[2026-03-12 09:03:43][notice]progress:104857600.
+[2026-03-12 09:03:43][notice]progress:105906176.
+[2026-03-12 09:03:44][notice]progress:106954752.
+[2026-03-12 09:03:44][notice]progress:108003328.
+[2026-03-12 09:03:44][notice]progress:109051904.
+[2026-03-12 09:03:44][notice]progress:110100480.
+[2026-03-12 09:03:44][notice]progress:111149056.
+[2026-03-12 09:03:44][notice]progress:112197632.
+[2026-03-12 09:03:44][notice]progress:113246208.
+[2026-03-12 09:03:44][notice]progress:114294784.
+[2026-03-12 09:03:45][notice]progress:115343360.
+[2026-03-12 09:03:45][notice]progress:116391936.
+[2026-03-12 09:03:45][notice]progress:117440512.
+[2026-03-12 09:03:45][notice]progress:118489088.
+[2026-03-12 09:03:45][notice]progress:119537664.
+[2026-03-12 09:03:45][notice]progress:120586240.
+[2026-03-12 09:03:45][notice]progress:121634816.
+[2026-03-12 09:03:45][notice]progress:122683392.
+[2026-03-12 09:03:46][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip Total size: 197,77 Mo Uploaded: 118,00 Mo speed:7864.32kb/s
+[2026-03-12 09:03:46][notice]progress:123731968.
+[2026-03-12 09:03:46][notice]progress:124780544.
+[2026-03-12 09:03:46][notice]progress:125829120.
+[2026-03-12 09:03:46][notice]progress:126877696.
+[2026-03-12 09:03:46][notice]progress:127926272.
+[2026-03-12 09:03:46][notice]progress:128974848.
+[2026-03-12 09:03:46][notice]progress:130023424.
+[2026-03-12 09:03:46][notice]progress:131072000.
+[2026-03-12 09:03:47][notice]progress:132120576.
+[2026-03-12 09:03:47][notice]progress:133169152.
+[2026-03-12 09:03:47][notice]progress:134217728.
+[2026-03-12 09:03:47][notice]progress:135266304.
+[2026-03-12 09:03:47][notice]progress:136314880.
+[2026-03-12 09:03:47][notice]progress:137363456.
+[2026-03-12 09:03:47][notice]progress:138412032.
+[2026-03-12 09:03:48][notice]progress:139460608.
+[2026-03-12 09:03:53][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip Total size: 197,77 Mo Uploaded: 134,00 Mo speed:2396.75kb/s
+[2026-03-12 09:03:53][notice]progress:140509184.
+[2026-03-12 09:03:53][notice]progress:141557760.
+[2026-03-12 09:03:53][notice]progress:142606336.
+[2026-03-12 09:03:54][notice]progress:143654912.
+[2026-03-12 09:03:54][notice]progress:144703488.
+[2026-03-12 09:03:54][notice]progress:145752064.
+[2026-03-12 09:03:54][notice]progress:146800640.
+[2026-03-12 09:03:58][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip Total size: 197,77 Mo Uploaded: 141,00 Mo speed:1468.01kb/s
+[2026-03-12 09:03:58][notice]progress:147849216.
+[2026-03-12 09:03:58][notice]progress:148897792.
+[2026-03-12 09:03:58][notice]progress:149946368.
+[2026-03-12 09:03:58][notice]progress:150994944.
+[2026-03-12 09:03:58][notice]progress:152043520.
+[2026-03-12 09:03:58][notice]progress:153092096.
+[2026-03-12 09:03:59][notice]progress:154140672.
+[2026-03-12 09:03:59][notice]progress:155189248.
+[2026-03-12 09:03:59][notice]progress:156237824.
+[2026-03-12 09:03:59][notice]progress:157286400.
+[2026-03-12 09:03:59][notice]progress:158334976.
+[2026-03-12 09:03:59][notice]progress:159383552.
+[2026-03-12 09:04:00][notice]progress:160432128.
+[2026-03-12 09:04:00][notice]progress:161480704.
+[2026-03-12 09:04:00][notice]progress:162529280.
+[2026-03-12 09:04:00][notice]progress:163577856.
+[2026-03-12 09:04:00][notice]progress:164626432.
+[2026-03-12 09:04:00][notice]progress:165675008.
+[2026-03-12 09:04:00][notice]progress:166723584.
+[2026-03-12 09:04:01][notice]progress:167772160.
+[2026-03-12 09:04:01][notice]progress:168820736.
+[2026-03-12 09:04:01][notice]progress:169869312.
+[2026-03-12 09:04:01][notice]progress:170917888.
+[2026-03-12 09:04:01][notice]progress:171966464.
+[2026-03-12 09:04:01][notice]progress:173015040.
+[2026-03-12 09:04:01][notice]progress:174063616.
+[2026-03-12 09:04:01][notice]progress:175112192.
+[2026-03-12 09:04:02][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip Total size: 197,77 Mo Uploaded: 168,00 Mo speed:7077.89kb/s
+[2026-03-12 09:04:02][notice]progress:176160768.
+[2026-03-12 09:04:02][notice]progress:177209344.
+[2026-03-12 09:04:02][notice]progress:178257920.
+[2026-03-12 09:04:02][notice]progress:179306496.
+[2026-03-12 09:04:02][notice]progress:180355072.
+[2026-03-12 09:04:02][notice]progress:181403648.
+[2026-03-12 09:04:02][notice]progress:182452224.
+[2026-03-12 09:04:03][notice]progress:183500800.
+[2026-03-12 09:04:03][notice]progress:184549376.
+[2026-03-12 09:04:03][notice]progress:185597952.
+[2026-03-12 09:04:03][notice]progress:186646528.
+[2026-03-12 09:04:03][notice]progress:187695104.
+[2026-03-12 09:04:03][notice]progress:188743680.
+[2026-03-12 09:04:03][notice]progress:189792256.
+[2026-03-12 09:04:03][notice]progress:190840832.
+[2026-03-12 09:04:03][notice]progress:191889408.
+[2026-03-12 09:04:04][notice]progress:192937984.
+[2026-03-12 09:04:04][notice]progress:193986560.
+[2026-03-12 09:04:04][notice]progress:195035136.
+[2026-03-12 09:04:04][notice]progress:196083712.
+[2026-03-12 09:04:04][notice]progress:197132288.
+[2026-03-12 09:04:04][notice]progress:198180864.
+[2026-03-12 09:04:04][notice]progress:199229440.
+[2026-03-12 09:04:04][notice]progress:200278016.
+[2026-03-12 09:04:05][notice]progress:201326592.
+[2026-03-12 09:04:05][notice]progress:202375168.
+[2026-03-12 09:04:05][notice]progress:203423744.
+[2026-03-12 09:04:05][notice]progress:204472320.
+[2026-03-12 09:04:05][notice]progress:205520896.
+[2026-03-12 09:04:05][notice]progress:206569472.
+[2026-03-12 09:04:06][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip Total size: 197,77 Mo Uploaded: 197,77 Mo speed:7802.9kb/s
+[2026-03-12 09:04:06][notice]progress:206569472.
+[2026-03-12 09:04:06][notice]Finished uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part003.zip
+[2026-03-12 09:04:06][notice]Upload success.
+[2026-03-12 09:04:06][notice]Start uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part004.zip
+[2026-03-12 09:04:06][notice]Check if the server already has the same name file.
+[2026-03-12 09:04:07][notice]Initiate a resumable upload session.
+[2026-03-12 09:04:07][notice]progress:1048576.
+[2026-03-12 09:04:07][notice]progress:2097152.
+[2026-03-12 09:04:08][notice]progress:3145728.
+[2026-03-12 09:04:08][notice]progress:4194304.
+[2026-03-12 09:04:08][notice]progress:5242880.
+[2026-03-12 09:04:08][notice]progress:6291456.
+[2026-03-12 09:04:08][notice]progress:7340032.
+[2026-03-12 09:04:08][notice]progress:8388608.
+[2026-03-12 09:04:08][notice]progress:9437184.
+[2026-03-12 09:04:08][notice]progress:10485760.
+[2026-03-12 09:04:09][notice]progress:11534336.
+[2026-03-12 09:04:09][notice]progress:12582912.
+[2026-03-12 09:04:09][notice]progress:13631488.
+[2026-03-12 09:04:09][notice]progress:14680064.
+[2026-03-12 09:04:09][notice]progress:15728640.
+[2026-03-12 09:04:09][notice]progress:16777216.
+[2026-03-12 09:04:09][notice]progress:17825792.
+[2026-03-12 09:04:09][notice]progress:18874368.
+[2026-03-12 09:04:10][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part004.zip Total size: 198,69 Mo Uploaded: 19,00 Mo speed:4980.74kb/s
+[2026-03-12 09:04:10][notice]progress:19922944.
+[2026-03-12 09:04:10][notice]progress:20971520.
+[2026-03-12 09:04:10][notice]progress:22020096.
+[2026-03-12 09:04:10][notice]progress:23068672.
+[2026-03-12 09:04:10][notice]progress:24117248.
+[2026-03-12 09:04:10][notice]progress:25165824.
+[2026-03-12 09:04:10][notice]progress:26214400.
+[2026-03-12 09:04:11][notice]progress:27262976.
+[2026-03-12 09:04:11][notice]progress:28311552.
+[2026-03-12 09:04:11][notice]progress:29360128.
+[2026-03-12 09:04:11][notice]progress:30408704.
+[2026-03-12 09:04:11][notice]progress:31457280.
+[2026-03-12 09:04:11][notice]progress:32505856.
+[2026-03-12 09:04:11][notice]progress:33554432.
+[2026-03-12 09:04:11][notice]progress:34603008.
+[2026-03-12 09:04:12][notice]progress:35651584.
+[2026-03-12 09:04:12][notice]progress:36700160.
+[2026-03-12 09:04:12][notice]progress:37748736.
+[2026-03-12 09:04:12][notice]progress:38797312.
+[2026-03-12 09:04:12][notice]progress:39845888.
+[2026-03-12 09:04:12][notice]progress:40894464.
+[2026-03-12 09:04:12][notice]progress:41943040.
+[2026-03-12 09:04:12][notice]progress:42991616.
+[2026-03-12 09:04:13][notice]progress:44040192.
+[2026-03-12 09:04:13][notice]progress:45088768.
+[2026-03-12 09:04:13][notice]progress:46137344.
+[2026-03-12 09:04:13][notice]progress:47185920.
+[2026-03-12 09:04:13][notice]progress:48234496.
+[2026-03-12 09:04:13][notice]progress:49283072.
+[2026-03-12 09:04:13][notice]progress:50331648.
+[2026-03-12 09:04:13][notice]progress:51380224.
+[2026-03-12 09:04:14][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part004.zip Total size: 198,69 Mo Uploaded: 50,00 Mo speed:8126.46kb/s
+[2026-03-12 09:04:14][notice]progress:52428800.
+[2026-03-12 09:04:14][notice]progress:53477376.
+[2026-03-12 09:04:14][notice]progress:54525952.
+[2026-03-12 09:04:14][notice]progress:55574528.
+[2026-03-12 09:04:14][notice]progress:56623104.
+[2026-03-12 09:04:14][notice]progress:57671680.
+[2026-03-12 09:04:14][notice]progress:58720256.
+[2026-03-12 09:04:14][notice]progress:59768832.
+[2026-03-12 09:04:15][notice]progress:60817408.
+[2026-03-12 09:04:15][notice]progress:61865984.
+[2026-03-12 09:04:15][notice]progress:62914560.
+[2026-03-12 09:04:15][notice]progress:63963136.
+[2026-03-12 09:04:15][notice]progress:65011712.
+[2026-03-12 09:04:15][notice]progress:66060288.
+[2026-03-12 09:04:15][notice]progress:67108864.
+[2026-03-12 09:04:16][notice]progress:68157440.
+[2026-03-12 09:04:16][notice]progress:69206016.
+[2026-03-12 09:04:16][notice]progress:70254592.
+[2026-03-12 09:04:16][notice]progress:71303168.
+[2026-03-12 09:04:16][notice]progress:72351744.
+[2026-03-12 09:04:16][notice]progress:73400320.
+[2026-03-12 09:04:16][notice]progress:74448896.
+[2026-03-12 09:04:16][notice]progress:75497472.
+[2026-03-12 09:04:17][notice]progress:76546048.
+[2026-03-12 09:04:17][notice]progress:77594624.
+[2026-03-12 09:04:17][notice]progress:78643200.
+[2026-03-12 09:04:17][notice]progress:79691776.
+[2026-03-12 09:04:17][notice]progress:80740352.
+[2026-03-12 09:04:17][notice]progress:81788928.
+[2026-03-12 09:04:17][notice]progress:82837504.
+[2026-03-12 09:04:17][notice]progress:83886080.
+[2026-03-12 09:04:18][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part004.zip Total size: 198,69 Mo Uploaded: 81,00 Mo speed:8126.46kb/s
+[2026-03-12 09:04:18][notice]progress:84934656.
+[2026-03-12 09:04:18][notice]progress:85983232.
+[2026-03-12 09:04:18][notice]progress:87031808.
+[2026-03-12 09:04:18][notice]progress:88080384.
+[2026-03-12 09:04:18][notice]progress:89128960.
+[2026-03-12 09:04:18][notice]progress:90177536.
+[2026-03-12 09:04:18][notice]progress:91226112.
+[2026-03-12 09:04:18][notice]progress:92274688.
+[2026-03-12 09:04:19][notice]progress:93323264.
+[2026-03-12 09:04:19][notice]progress:94371840.
+[2026-03-12 09:04:19][notice]progress:95420416.
+[2026-03-12 09:04:19][notice]progress:96468992.
+[2026-03-12 09:04:19][notice]progress:97517568.
+[2026-03-12 09:04:19][notice]progress:98566144.
+[2026-03-12 09:04:19][notice]progress:99614720.
+[2026-03-12 09:04:19][notice]progress:100663296.
+[2026-03-12 09:04:20][notice]progress:101711872.
+[2026-03-12 09:04:20][notice]progress:102760448.
+[2026-03-12 09:04:20][notice]progress:103809024.
+[2026-03-12 09:04:20][notice]progress:104857600.
+[2026-03-12 09:04:20][notice]progress:105906176.
+[2026-03-12 09:04:20][notice]progress:106954752.
+[2026-03-12 09:04:20][notice]progress:108003328.
+[2026-03-12 09:04:20][notice]progress:109051904.
+[2026-03-12 09:04:21][notice]progress:110100480.
+[2026-03-12 09:04:21][notice]progress:111149056.
+[2026-03-12 09:04:21][notice]progress:112197632.
+[2026-03-12 09:04:21][notice]progress:113246208.
+[2026-03-12 09:04:21][notice]progress:114294784.
+[2026-03-12 09:04:21][notice]progress:115343360.
+[2026-03-12 09:04:22][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part004.zip Total size: 198,69 Mo Uploaded: 111,00 Mo speed:7864.32kb/s
+[2026-03-12 09:04:22][notice]progress:116391936.
+[2026-03-12 09:04:22][notice]progress:117440512.
+[2026-03-12 09:04:22][notice]progress:118489088.
+[2026-03-12 09:04:22][notice]progress:119537664.
+[2026-03-12 09:04:22][notice]progress:120586240.
+[2026-03-12 09:04:22][notice]progress:121634816.
+[2026-03-12 09:04:22][notice]progress:122683392.
+[2026-03-12 09:04:22][notice]progress:123731968.
+[2026-03-12 09:04:22][notice]progress:124780544.
+[2026-03-12 09:04:23][notice]progress:125829120.
+[2026-03-12 09:04:23][notice]progress:126877696.
+[2026-03-12 09:04:23][notice]progress:127926272.
+[2026-03-12 09:04:23][notice]progress:128974848.
+[2026-03-12 09:04:23][notice]progress:130023424.
+[2026-03-12 09:04:23][notice]progress:131072000.
+[2026-03-12 09:04:23][notice]progress:132120576.
+[2026-03-12 09:04:24][notice]progress:133169152.
+[2026-03-12 09:04:24][notice]progress:134217728.
+[2026-03-12 09:04:24][notice]progress:135266304.
+[2026-03-12 09:04:24][notice]progress:136314880.
+[2026-03-12 09:04:24][notice]progress:137363456.
+[2026-03-12 09:04:24][notice]progress:138412032.
+[2026-03-12 09:04:24][notice]progress:139460608.
+[2026-03-12 09:04:25][notice]progress:140509184.
+[2026-03-12 09:04:25][notice]progress:141557760.
+[2026-03-12 09:04:25][notice]progress:142606336.
+[2026-03-12 09:04:25][notice]progress:143654912.
+[2026-03-12 09:04:25][notice]progress:144703488.
+[2026-03-12 09:04:25][notice]progress:145752064.
+[2026-03-12 09:04:25][notice]progress:146800640.
+[2026-03-12 09:04:25][notice]progress:147849216.
+[2026-03-12 09:04:26][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part004.zip Total size: 198,69 Mo Uploaded: 142,00 Mo speed:8126.46kb/s
+[2026-03-12 09:04:26][notice]progress:148897792.
+[2026-03-12 09:04:26][notice]progress:149946368.
+[2026-03-12 09:04:26][notice]progress:150994944.
+[2026-03-12 09:04:26][notice]progress:152043520.
+[2026-03-12 09:04:26][notice]progress:153092096.
+[2026-03-12 09:04:26][notice]progress:154140672.
+[2026-03-12 09:04:26][notice]progress:155189248.
+[2026-03-12 09:04:26][notice]progress:156237824.
+[2026-03-12 09:04:27][notice]progress:157286400.
+[2026-03-12 09:04:27][notice]progress:158334976.
+[2026-03-12 09:04:27][notice]progress:159383552.
+[2026-03-12 09:04:27][notice]progress:160432128.
+[2026-03-12 09:04:27][notice]progress:161480704.
+[2026-03-12 09:04:27][notice]progress:162529280.
+[2026-03-12 09:04:27][notice]progress:163577856.
+[2026-03-12 09:04:27][notice]progress:164626432.
+[2026-03-12 09:04:28][notice]progress:165675008.
+[2026-03-12 09:04:28][notice]progress:166723584.
+[2026-03-12 09:04:28][notice]progress:167772160.
+[2026-03-12 09:04:28][notice]progress:168820736.
+[2026-03-12 09:04:28][notice]progress:169869312.
+[2026-03-12 09:04:28][notice]progress:170917888.
+[2026-03-12 09:04:28][notice]progress:171966464.
+[2026-03-12 09:04:29][notice]progress:173015040.
+[2026-03-12 09:04:29][notice]progress:174063616.
+[2026-03-12 09:04:29][notice]progress:175112192.
+[2026-03-12 09:04:29][notice]progress:176160768.
+[2026-03-12 09:04:29][notice]progress:177209344.
+[2026-03-12 09:04:29][notice]progress:178257920.
+[2026-03-12 09:04:29][notice]progress:179306496.
+[2026-03-12 09:04:30][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part004.zip Total size: 198,69 Mo Uploaded: 172,00 Mo speed:7864.32kb/s
+[2026-03-12 09:04:30][notice]progress:180355072.
+[2026-03-12 09:04:30][notice]progress:181403648.
+[2026-03-12 09:04:30][notice]progress:182452224.
+[2026-03-12 09:04:30][notice]progress:183500800.
+[2026-03-12 09:04:30][notice]progress:184549376.
+[2026-03-12 09:04:30][notice]progress:185597952.
+[2026-03-12 09:04:30][notice]progress:186646528.
+[2026-03-12 09:04:31][notice]progress:187695104.
+[2026-03-12 09:04:31][notice]progress:188743680.
+[2026-03-12 09:04:31][notice]progress:189792256.
+[2026-03-12 09:04:31][notice]progress:190840832.
+[2026-03-12 09:04:31][notice]progress:191889408.
+[2026-03-12 09:04:31][notice]progress:192937984.
+[2026-03-12 09:04:31][notice]progress:193986560.
+[2026-03-12 09:04:31][notice]progress:195035136.
+[2026-03-12 09:04:32][notice]progress:196083712.
+[2026-03-12 09:04:32][notice]progress:197132288.
+[2026-03-12 09:04:32][notice]progress:198180864.
+[2026-03-12 09:04:32][notice]progress:199229440.
+[2026-03-12 09:04:32][notice]progress:200278016.
+[2026-03-12 09:04:32][notice]progress:201326592.
+[2026-03-12 09:04:32][notice]progress:202375168.
+[2026-03-12 09:04:33][notice]progress:203423744.
+[2026-03-12 09:04:33][notice]progress:204472320.
+[2026-03-12 09:04:33][notice]progress:205520896.
+[2026-03-12 09:04:33][notice]progress:206569472.
+[2026-03-12 09:04:33][notice]progress:207618048.
+[2026-03-12 09:04:38][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part004.zip Total size: 198,69 Mo Uploaded: 198,69 Mo speed:3498.2kb/s
+[2026-03-12 09:04:38][notice]progress:207618048.
+[2026-03-12 09:04:38][notice]Finished uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part004.zip
+[2026-03-12 09:04:38][notice]Upload success.
+[2026-03-12 09:04:38][notice]Start uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip
+[2026-03-12 09:04:38][notice]Check if the server already has the same name file.
+[2026-03-12 09:04:38][notice]Initiate a resumable upload session.
+[2026-03-12 09:04:39][notice]progress:1048576.
+[2026-03-12 09:04:39][notice]progress:2097152.
+[2026-03-12 09:04:40][notice]progress:3145728.
+[2026-03-12 09:04:40][notice]progress:4194304.
+[2026-03-12 09:04:40][notice]progress:5242880.
+[2026-03-12 09:04:40][notice]progress:6291456.
+[2026-03-12 09:04:40][notice]progress:7340032.
+[2026-03-12 09:04:41][notice]progress:8388608.
+[2026-03-12 09:04:41][notice]progress:9437184.
+[2026-03-12 09:04:41][notice]progress:10485760.
+[2026-03-12 09:04:41][notice]progress:11534336.
+[2026-03-12 09:04:41][notice]progress:12582912.
+[2026-03-12 09:04:41][notice]progress:13631488.
+[2026-03-12 09:04:41][notice]progress:14680064.
+[2026-03-12 09:04:42][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip Total size: 136,91 Mo Uploaded: 15,00 Mo speed:3932.16kb/s
+[2026-03-12 09:04:42][notice]progress:15728640.
+[2026-03-12 09:04:42][notice]progress:16777216.
+[2026-03-12 09:04:42][notice]progress:17825792.
+[2026-03-12 09:04:42][notice]progress:18874368.
+[2026-03-12 09:04:42][notice]progress:19922944.
+[2026-03-12 09:04:42][notice]progress:20971520.
+[2026-03-12 09:04:43][notice]progress:22020096.
+[2026-03-12 09:04:43][notice]progress:23068672.
+[2026-03-12 09:04:43][notice]progress:24117248.
+[2026-03-12 09:04:43][notice]progress:25165824.
+[2026-03-12 09:04:43][notice]progress:26214400.
+[2026-03-12 09:04:43][notice]progress:27262976.
+[2026-03-12 09:04:44][notice]progress:28311552.
+[2026-03-12 09:04:44][notice]progress:29360128.
+[2026-03-12 09:04:44][notice]progress:30408704.
+[2026-03-12 09:04:44][notice]progress:31457280.
+[2026-03-12 09:04:44][notice]progress:32505856.
+[2026-03-12 09:04:44][notice]progress:33554432.
+[2026-03-12 09:04:45][notice]progress:34603008.
+[2026-03-12 09:04:45][notice]progress:35651584.
+[2026-03-12 09:04:45][notice]progress:36700160.
+[2026-03-12 09:04:45][notice]progress:37748736.
+[2026-03-12 09:04:45][notice]progress:38797312.
+[2026-03-12 09:04:45][notice]progress:39845888.
+[2026-03-12 09:04:45][notice]progress:40894464.
+[2026-03-12 09:04:45][notice]progress:41943040.
+[2026-03-12 09:04:46][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip Total size: 136,91 Mo Uploaded: 41,00 Mo speed:6815.74kb/s
+[2026-03-12 09:04:46][notice]progress:42991616.
+[2026-03-12 09:04:46][notice]progress:44040192.
+[2026-03-12 09:04:46][notice]progress:45088768.
+[2026-03-12 09:04:46][notice]progress:46137344.
+[2026-03-12 09:04:46][notice]progress:47185920.
+[2026-03-12 09:04:46][notice]progress:48234496.
+[2026-03-12 09:04:46][notice]progress:49283072.
+[2026-03-12 09:04:47][notice]progress:50331648.
+[2026-03-12 09:04:47][notice]progress:51380224.
+[2026-03-12 09:04:47][notice]progress:52428800.
+[2026-03-12 09:04:47][notice]progress:53477376.
+[2026-03-12 09:04:47][notice]progress:54525952.
+[2026-03-12 09:04:47][notice]progress:55574528.
+[2026-03-12 09:04:47][notice]progress:56623104.
+[2026-03-12 09:04:47][notice]progress:57671680.
+[2026-03-12 09:04:48][notice]progress:58720256.
+[2026-03-12 09:04:48][notice]progress:59768832.
+[2026-03-12 09:04:48][notice]progress:60817408.
+[2026-03-12 09:04:48][notice]progress:61865984.
+[2026-03-12 09:04:48][notice]progress:62914560.
+[2026-03-12 09:04:48][notice]progress:63963136.
+[2026-03-12 09:04:49][notice]progress:65011712.
+[2026-03-12 09:04:49][notice]progress:66060288.
+[2026-03-12 09:04:49][notice]progress:67108864.
+[2026-03-12 09:04:49][notice]progress:68157440.
+[2026-03-12 09:04:49][notice]progress:69206016.
+[2026-03-12 09:04:49][notice]progress:70254592.
+[2026-03-12 09:04:49][notice]progress:71303168.
+[2026-03-12 09:04:50][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip Total size: 136,91 Mo Uploaded: 69,00 Mo speed:7340.03kb/s
+[2026-03-12 09:04:50][notice]progress:72351744.
+[2026-03-12 09:04:50][notice]progress:73400320.
+[2026-03-12 09:04:50][notice]progress:74448896.
+[2026-03-12 09:04:50][notice]progress:75497472.
+[2026-03-12 09:04:50][notice]progress:76546048.
+[2026-03-12 09:04:50][notice]progress:77594624.
+[2026-03-12 09:04:50][notice]progress:78643200.
+[2026-03-12 09:04:51][notice]progress:79691776.
+[2026-03-12 09:04:51][notice]progress:80740352.
+[2026-03-12 09:04:51][notice]progress:81788928.
+[2026-03-12 09:04:51][notice]progress:82837504.
+[2026-03-12 09:04:51][notice]progress:83886080.
+[2026-03-12 09:04:51][notice]progress:84934656.
+[2026-03-12 09:04:51][notice]progress:85983232.
+[2026-03-12 09:04:52][notice]progress:87031808.
+[2026-03-12 09:04:52][notice]progress:88080384.
+[2026-03-12 09:04:52][notice]progress:89128960.
+[2026-03-12 09:04:52][notice]progress:90177536.
+[2026-03-12 09:04:52][notice]progress:91226112.
+[2026-03-12 09:04:52][notice]progress:92274688.
+[2026-03-12 09:04:52][notice]progress:93323264.
+[2026-03-12 09:04:53][notice]progress:94371840.
+[2026-03-12 09:04:53][notice]progress:95420416.
+[2026-03-12 09:04:53][notice]progress:96468992.
+[2026-03-12 09:04:53][notice]progress:97517568.
+[2026-03-12 09:04:53][notice]progress:98566144.
+[2026-03-12 09:04:53][notice]progress:99614720.
+[2026-03-12 09:04:54][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip Total size: 136,91 Mo Uploaded: 96,00 Mo speed:7077.89kb/s
+[2026-03-12 09:04:54][notice]progress:100663296.
+[2026-03-12 09:04:54][notice]progress:101711872.
+[2026-03-12 09:04:54][notice]progress:102760448.
+[2026-03-12 09:04:54][notice]progress:103809024.
+[2026-03-12 09:04:54][notice]progress:104857600.
+[2026-03-12 09:04:54][notice]progress:105906176.
+[2026-03-12 09:04:54][notice]progress:106954752.
+[2026-03-12 09:04:55][notice]progress:108003328.
+[2026-03-12 09:04:55][notice]progress:109051904.
+[2026-03-12 09:04:55][notice]progress:110100480.
+[2026-03-12 09:04:55][notice]progress:111149056.
+[2026-03-12 09:04:55][notice]progress:112197632.
+[2026-03-12 09:04:55][notice]progress:113246208.
+[2026-03-12 09:04:55][notice]progress:114294784.
+[2026-03-12 09:04:55][notice]progress:115343360.
+[2026-03-12 09:04:56][notice]progress:116391936.
+[2026-03-12 09:04:56][notice]progress:117440512.
+[2026-03-12 09:04:56][notice]progress:118489088.
+[2026-03-12 09:04:56][notice]progress:119537664.
+[2026-03-12 09:04:56][notice]progress:120586240.
+[2026-03-12 09:04:56][notice]progress:121634816.
+[2026-03-12 09:04:56][notice]progress:122683392.
+[2026-03-12 09:04:57][notice]progress:123731968.
+[2026-03-12 09:04:57][notice]progress:124780544.
+[2026-03-12 09:04:57][notice]progress:125829120.
+[2026-03-12 09:04:57][notice]progress:126877696.
+[2026-03-12 09:04:57][notice]progress:127926272.
+[2026-03-12 09:04:57][notice]progress:128974848.
+[2026-03-12 09:04:57][notice]progress:130023424.
+[2026-03-12 09:04:58][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip Total size: 136,91 Mo Uploaded: 125,00 Mo speed:7602.18kb/s
+[2026-03-12 09:04:58][notice]progress:131072000.
+[2026-03-12 09:04:58][notice]progress:132120576.
+[2026-03-12 09:04:58][notice]progress:133169152.
+[2026-03-12 09:04:58][notice]progress:134217728.
+[2026-03-12 09:04:58][notice]progress:135266304.
+[2026-03-12 09:04:58][notice]progress:136314880.
+[2026-03-12 09:04:58][notice]progress:137363456.
+[2026-03-12 09:04:59][notice]progress:138412032.
+[2026-03-12 09:04:59][notice]progress:139460608.
+[2026-03-12 09:04:59][notice]progress:140509184.
+[2026-03-12 09:04:59][notice]progress:141557760.
+[2026-03-12 09:04:59][notice]progress:142606336.
+[2026-03-12 09:05:08][notice]Uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip Total size: 136,91 Mo Uploaded: 136,91 Mo speed:1249.02kb/s
+[2026-03-12 09:05:08][notice]progress:142606336.
+[2026-03-12 09:05:09][notice]Finished uploading localhost_cpsa28_wpvivid-7db578115f7ec_2026-03-12-09-00_backup_all.part005.zip
+[2026-03-12 09:05:09][notice]Upload success.
+[2026-03-12 09:05:09][notice]Finish upload to googledrive
