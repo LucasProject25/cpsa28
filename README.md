@@ -2,6 +2,7 @@
 ## Certification - Développeur Web et Web Mobile
 
 Ce projet est un projet individuel réalisé lors de ma formation pour acquérir ma certification de développeur web et web mobile (*équivalent à un Bac +2*).
+**__DISCLAIMER__** : ***Ce trouve à la fin du readme, les liens d'accès au site initial et final.***
 
 ### But du projet
 Pour valider ma certification ainsi que le projet, il fallait trouver un site internet puis en faire une total refonte graphique, sur WordPress, en plus d'ajouter des fonctionnalités énoncés par les formateurs après l'analyse du site
