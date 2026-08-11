@@ -25,7 +25,7 @@ Le site est un showroom de vente de voiture haut de gammes d'occasion situé à 
 - Recherche personnalisé
 
 ### Fonctionnalités ajoutés par rapport au site initial
-***Client***\
+***CLIENT***\
 **Accès & Authentification**
 - Espace client privé
 - Compte validé manuellement
@@ -46,7 +46,7 @@ Le site est un showroom de vente de voiture haut de gammes d'occasion situé à 
 - Événements privés (une page spécial dans l'espace client)
 - Conciergerie
 
-***Administrateur : CRUD***
+***ADMINISTRATEUR : CRUD***\
 **Gestion membre :** 
 - Validation manuelle
 - Statut (Standard / Premium / VIP) 
