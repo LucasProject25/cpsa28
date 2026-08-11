@@ -24,7 +24,7 @@ Le site est un showroom de vente de voiture haut de gammes d'occasion situé à 
 
 ### Fonctionnalité du site initial
 - Catalogue de véhicule
-- Recherche personnalisé
+- Recherche personnalisée
 
 ### Fonctionnalités ajoutés par rapport au site initial
 ***CLIENT***
